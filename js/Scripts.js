@@ -12,14 +12,15 @@ $(document).ready(function() {
     } else if (time === 'standard') {
       if (age > 60) {
         $("cost").text("Eleven Dollars");
-        else if (age < 60) {
-          $("#cost").text("Fifteen DIllars");
-        }
+      } else if (age < 60) {
+          $("#cost").text("Fifteen Dollars");
       }
     }
   });
 });
 
-if (time === matinee) {
-  if (age > 60) {
-    $("#cost").text("Ten Dollars");
+// if (time === matinee) {
+//   if (age > 60) {
+//     $("#cost").text("Ten Dollars");
+//   }
+// }
